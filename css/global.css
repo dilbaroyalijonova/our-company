@@ -1,6 +1,7 @@
 @import url(./normolize.css);
 @import url(../fonts/);
 @import url(variaebles.css);
+@import url(header.css);
 @font-face {
   font-display: swap;
   font-family: "Jost";
@@ -72,7 +73,7 @@ body {
 }
 
 #active {
-  background-color: aqua;
+  color: crimson;
 }
 
 main {
@@ -86,4 +87,11 @@ main {
   margin-right: auto;
   padding-right: 5rem;
   padding-left: 5rem;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;
+  font-size: ;
+  text-decoration: underline;
 }
