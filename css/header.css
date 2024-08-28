@@ -1,18 +1,19 @@
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 64px 0 67px 0;
 }
 
 .sitenav-list {
-    display: flex;
-    align-items: center;
-    gap: 4.2rem;
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
 }
 
 .sitenav-link {
-    color: var(--dark-gray-color);
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: var(--dark-gray-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
